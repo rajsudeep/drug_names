@@ -8,10 +8,10 @@ from generate_advertisement import get_ad
 
 # use this for production; set vars in heroku dashboard
 from os import environ
-CONSUMER_KEY = 'vXbtgZlOyNrSvDR1Wr0Avqedu'
-CONSUMER_SECRET = 'UPsEeHn2CAZ0V5HDbFyryaBs4JzY8YXwKw0dtQkXxZF2DEs1Nz'
-ACCESS_KEY = '1140648838580936704-86nhtF1dnDKO7mwfTmF1UzDyPNEazT'
-ACCESS_SECRET = 'Z1iZJbiETOJL9BRCsqHR1qXg9Ynt02P5pqFr8j3F8QrDT'
+CONSUMER_KEY = environ['CONSUMER_KEY']
+CONSUMER_SECRET = environ['CONSUMER_SECRET']
+ACCESS_KEY = environ['ACCESS_KEY']
+ACCESS_SECRET = environ['ACCESS_SECRET']
 
 # INTERVAL = 60 * 60 * 6  # tweet every 6 hours
 INTERVAL = 30  # every 15 seconds, for testing
