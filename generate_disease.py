@@ -2,25 +2,32 @@ from random import choice, randint
 import constants as c
 
 
-def adj_organ():
-    return '{} {}'.format(
-        choice(c.ADJECTIVES),
-        choice(c.BODY_PARTS)
+def adjective():
+    return '{}'.format(
+        choice(c.ADJECTIVES)
     )
 
 
-def color_bile():
-    return 'an excess of {} bile'.format(
-        choice(c.COLORS).lower()
+def color():
+    return '{}'.format(
+        choice(c.COLORS)
     )
 
 
-def superlative_symptom():
-    return '{} {}'.format(
-        choice(c.SUPERLATIVES),
-        choice(c.SYMPTOMS)
+def superlative():
+    return '{}'.format(
+        choice(c.SUPERLATIVES)
     )
 
+def noun():
+    return '{}'.format(
+        choice(c.NOUNS)
+)
+
+def employment():
+    return '{}'.format(
+        choice(c.EMPLOYMENTS)
+)
 
 def disease():
     index = randint(0, 5)
