@@ -13,8 +13,8 @@ CONSUMER_SECRET = environ['CONSUMER_SECRET']
 ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_SECRET = environ['ACCESS_SECRET']
 
-INTERVAL = 60 * 60 * 24  # tweet every 24 hours
-# INTERVAL = 30  # every 30 seconds, for testing
+# INTERVAL = 60 * 60 * 24  # tweet every 24 hours
+INTERVAL = 30  # every 30 seconds, for testing
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
