@@ -7,7 +7,7 @@ from generate_disease import color
 
 
 def get_ad():
-    phrase = choice(c.TEST_PHRASES).format(adjective())
+    phrase = choice(c.TEST_PHRASES).format(adjective(), noun(), color())
 
     return '{}'.format(phrase)
 
