@@ -1,16 +1,5 @@
-# string templates
-
-PHRASES = [
-    'When the fountain is sealed and the spring is shut up,
-to open that fountain and release that spring you must dig
-deep, and thereby disturb the earth. In like manner and for
-the same purpose there must be disturbance within you if you
-would find Truth.',
-    'I am a hunter of peace, seeking the mayfly called love.'
-]
-
 # temporary tests from previous script
-# I am a {adj} of {n}, seeking the {color} mayfly 
+# I am a {adj} of {n}, seeking the {color} mayfly
 
 TEST_PHRASES = [
   'I am a {} of {}, seeking the {} mayfly.'
