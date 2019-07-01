@@ -2,7 +2,7 @@
 # I am a {adj} of {n}, seeking the {color} mayfly
 
 TEST_PHRASES = [
-  '"I am a {} {}, seeking the {} mayfly." - SODEEPBOT'
+  '"I am a {} {}, seeking the {} mayfly {}." - SODEEPBOT'
 ]
 
 ADJECTIVES = [
@@ -20,7 +20,6 @@ ADJECTIVES = [
     'delicate',
     'tan',
     'wooden',
-    'zonked',
     'tasty',
     'spiritual',
     'acidic',
