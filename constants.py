@@ -78,7 +78,8 @@ NOUNS = [
     'swan',
     'printer',
     'ornament',
-    'frames'
+    'frames',
+    'aalaa'
 ]
 
 SUPERLATIVES = [
