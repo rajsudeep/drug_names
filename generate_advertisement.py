@@ -1,15 +1,15 @@
 from random import choice
 
 import constants as c
-from generate_disease import adjective
-from generate_disease import noun
-from generate_disease import color
+from drug_name import create_drug_name
+from generate_disease import disease
 
 
 def get_ad():
-    phrase = choice(c.TEST_PHRASES).format(adjective(), noun(), color(), noun())
+    question = choice(c.QUESTIONS).format(disease())
+    answer = choice(c.ANSWERS).format(create_drug_name())
 
-    return '{}'.format(phrase)
+    return '{} {}'.format(question, answer)
 
 
 # for testing
