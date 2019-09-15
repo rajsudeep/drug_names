@@ -21,15 +21,14 @@ def superlative_symptom():
         choice(c.SYMPTOMS)
     )
 
+def hot_noun():
+    return 'HEY YOU {}\n'.format(
+        choice(c.NOUNS)
+    )
+
 
 def disease():
-    index = randint(0, 5)
-    if index == 0:
-        return color_bile()
-    elif index == 1:
-        return superlative_symptom()
-    else:
-        return adj_organ()
+        return hot_noun()
 
 
 # for testing
