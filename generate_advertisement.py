@@ -6,10 +6,9 @@ from generate_disease import disease
 
 
 def get_ad():
-    question = choice(c.QUESTIONS).format(disease())
-    answer = choice(c.ANSWERS).format(create_drug_name())
-
-    return '{} {}'.format(question, answer)
+    sexy_shout = disease()
+    compliment = choice(c.COMPLIMENTS)
+    return '{}{}'.format(sexy_shout, compliment)
 
 
 # for testing
